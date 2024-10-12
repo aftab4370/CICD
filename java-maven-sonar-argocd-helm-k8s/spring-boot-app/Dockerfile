@@ -2,7 +2,7 @@
 # But make sure to use the correct version of Java
 FROM adoptopenjdk/openjdk11:alpine-jre
 
-# Simply the artifact path
+# Simply the artifacts path
 ARG artifact=target/spring-boot-web.jar
 
 WORKDIR /opt/app
